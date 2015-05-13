@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">TuKuDuang</string>
+    <string name="left">左转</string>
+    <string name="right">右转</string>
+    <string name="big">放大</string>
+    <string name="small">缩小</string>
+    <string name="lvjing">滤镜</string>
+    <string name="searching">搜索中</string>
+    <string name="share">分享</string>
+    <string name="download">下载</string>
+    <string name="recognize">人像识别</string>
+    <string name="action_settings">设置</string>
+    <string name="yuantu">原图</string>
+    <string name="bingdong">冰冻</string>
+    <string name="heibai">黑白</string>
+    <string name="huidu">灰度</string>
+      <string name="search">搜索</string>
+    <string name="save">保存</string>
+    <string name="setting">设置</string>
+    <string name="refresh">刷新</string>
+    <string name="sort">搜索</string>
+    <string name="rank">排序</string>
+    <string name="rankname">按名称排序</string>
+    <string name="ranknum">按数量排序</string>
+    <string name="ranktime">按时间排序</string>
+    <string  name="add">添加</string>
+     <string  name="help">帮助</string>
+    <string  name="playvideo">视频播放</string>
+     <string  name="playtime">00:00</string>
+     <string-array name="sortway"> <item>名称</item>
+        <item>数量</item>
+        <item>时间</item>
+        </string-array>
+
+</resources>

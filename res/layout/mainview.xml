@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/id_myvideobtn"
+    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/id_mypicbtn"
+        android:layout_alignBottom="@+id/id_mypicbtn"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/id_mypicbtn"
+        android:text="我的视频" />
+
+    <Button
+        android:id="@+id/id_mypicbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="151dp"
+        android:text="我的图片" />
+
+    <Button
+        android:id="@+id/id_takepicbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_mypicbtn"
+        android:layout_alignRight="@+id/id_mypicbtn"
+        android:layout_below="@+id/id_mypicbtn"
+        android:layout_marginTop="56dp"
+        android:text="拍照" />
+
+    <Button
+        android:id="@+id/id_takevideobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/id_takepicbtn"
+        android:layout_alignLeft="@+id/id_myvideobtn"
+        android:layout_alignRight="@+id/id_myvideobtn"
+        android:text="录像" />
+
+</RelativeLayout>

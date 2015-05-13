@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+   
+  <item  
+        android:id="@+id/action_search"  
+      
+       android:title="@string/search"
+        android:showAsAction="ifRoom"
+       />  
+   <item  
+        android:id="@+id/action_add"  
+        android:showAsAction="ifRoom"
+         android:title="@string/add"/>  
+   <item  
+        android:id="@+id/action_rank_name"  
+        android:orderInCategory="100"  
+        android:showAsAction="ifRoom"  
+        android:title="@string/rankname"/>  
+    <item  
+        android:id="@+id/action_rank_num"  
+        android:showAsAction="ifRoom"  
+         android:orderInCategory="101"  
+        android:title="@string/ranknum"/>  
+      <item  
+        android:id="@+id/action_rank_time"  
+        android:showAsAction="ifRoom"  
+         android:orderInCategory="102"  
+        android:title="@string/ranktime"/> 
+</menu>  
